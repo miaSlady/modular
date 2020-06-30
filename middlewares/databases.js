@@ -5,7 +5,7 @@ const db=mysql.createConnection({
   port:3306,
   user:'root',
   password:'123456',
-  database:'modular',
+  database:'modular',//数据库名
   multipleStatements: true,//可执行多条sql语句
 });
 
